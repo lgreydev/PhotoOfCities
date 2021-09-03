@@ -21,7 +21,20 @@
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aIN-BA-IAL" userLabel="ViewBand">
                                 <rect key="frame" x="0.0" y="617.33333333333337" width="428" height="308.66666666666663"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wW3-er-wS6" userLabel="CityName">
+                                        <rect key="frame" x="20" y="20" width="388" height="30"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.70579061950279398" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="wW3-er-wS6" secondAttribute="trailing" constant="20" id="8SH-kb-wTv"/>
+                                    <constraint firstItem="wW3-er-wS6" firstAttribute="top" secondItem="aIN-BA-IAL" secondAttribute="top" constant="20" id="lJX-zI-XgN"/>
+                                    <constraint firstItem="wW3-er-wS6" firstAttribute="leading" secondItem="aIN-BA-IAL" secondAttribute="leading" constant="20" id="qEs-KF-3hB"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
