@@ -55,7 +55,9 @@
                             <constraint firstAttribute="bottom" secondItem="aIN-BA-IAL" secondAttribute="bottom" id="FYr-xI-JWD"/>
                             <constraint firstAttribute="trailing" secondItem="8sn-vO-PnB" secondAttribute="trailing" id="Gzx-2n-tun"/>
                             <constraint firstItem="8sn-vO-PnB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="UaQ-98-AzC"/>
-                            <constraint firstItem="aIN-BA-IAL" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:3" id="ZyI-2R-yA3"/>
+                            <constraint firstItem="aIN-BA-IAL" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:3" id="ZyI-2R-yA3">
+                                <variation key="heightClass=compact-widthClass=compact" constant="50"/>
+                            </constraint>
                             <constraint firstItem="8sn-vO-PnB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ls2-Ts-b2Z"/>
                         </constraints>
                     </view>
